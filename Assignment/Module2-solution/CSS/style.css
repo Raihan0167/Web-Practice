@@ -1,0 +1,57 @@
+* {
+			box-sizing: border-box;	
+		}
+
+		h1 {
+			margin-bottom: 50px;
+			color: blue;
+			text-align: center;
+		}
+
+		.row {
+			width: 100%;
+		}
+
+		#home {
+			float: right;
+			width: 20px;
+			height: 20px;
+			border: 1px solid blue;
+			background-color: #26FFF9;
+		}
+
+		#village {
+			width : 90%;
+			height: 200px;
+			background-color: #CD0000;
+			color: black;
+			margin: 5px;
+		}
+
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				border: 2px solid black;
+				width: 33.33%;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-6, .col-md-12 {
+				border: 2px solid black;
+			}
+
+			.col-md-6 {
+				width: 50%;
+			}
+
+			.col-md-12 {
+				width: 100%;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.col-sm-12 {
+				border: 2px solid black;
+				width: 100%;
+			}
+		}
